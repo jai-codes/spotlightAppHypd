@@ -41,7 +41,7 @@ struct AddProductsView: View {
                     Rectangle()
                         .foregroundColor(selectedTab == .category ? Color(red: 0.07, green: 0.08, blue: 0.11) : .clear)
                         .frame(height: 2)
-                        .offset(y: 21) // Adjust this value to align the line position as desired
+                        .offset(y: 21) 
                 }
                 .onTapGesture {
                     selectedTab = .category
@@ -61,7 +61,7 @@ struct AddProductsView: View {
                     Rectangle()
                         .foregroundColor(selectedTab == .brands ? Color(red: 0.07, green: 0.08, blue: 0.11) : .clear)
                         .frame(height: 2)
-                        .offset(y: 21) // Adjust this value to align the line position as desired
+                        .offset(y: 21) 
                 }
                 .onTapGesture {
                     selectedTab = .brands
@@ -84,7 +84,7 @@ struct AddProductsView: View {
                     Rectangle()
                         .foregroundColor(selectedTab == .products ? Color(red: 0.07, green: 0.08, blue: 0.11) : .clear)
                         .frame(height: 2)
-                        .offset(y: 21) // Adjust this value to align the line position as desired
+                        .offset(y: 21) 
                 }
                 .onTapGesture {
                     selectedTab = .products
